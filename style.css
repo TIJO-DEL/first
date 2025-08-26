@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.grey {
+    width: 100%;
+    height: 398px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grey h2 {
+    color: gray;
+    font-weight: 400;
+}
+
+.grey span {
+    color: black;
+    font-weight: 600;
+}
+
+a {
+    color: green;
+    border: none;
+}
+
+.ichi1 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-right: 100px;
+}
+
+.ichi2 {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-left: 100px;
+}
+
+.ichi1 h1 {
+    color: gray;
+    font-weight: 400;
+}
+
+.ichi1 span {
+    color: black;
+    font-weight: 600;
+}
+
+.ichi1 p {
+    color: gray;
+}
+
+.ichi2 h1 {
+    color: gray;
+    font-weight: 400;
+}
+
+.ichi2 span {
+    color: black;
+    font-weight: 600;
+}
+
+.ichi2 p {
+    color: gray;
+}
+
+.uzun {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    gap: 500px;
+}
+
+.ichi3 p {
+    color: green;
+    font-size: 20px;
+    font-weight: 540;
+}
+
+.ichi3 img {
+    position: relative;
+    top: -4px;
+    left: 3px;
+}
+
+.ichi3 h2 {
+    color: gray;
+    font-weight: 400;
+}
+
+.ichi3 span {
+    color: black;
+    font-weight: 600;
+}
+
+.uzun button {
+    width: 160px;
+    height: 60px;
+    border-radius: 4px;
+    border: none;
+    background: #5AB963;
+    color: white;
+    cursor: pointer;
+    position: relative;
+    top: 25px;
+}
+.footer{
+    width: 100%;
+    height: 399px;
+    background: #0A0E1A;
+    color: white;
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ikki{
+    display: flex;
+    gap: 25px;
+}
+.dlar{
+    display: inline-flex;
+    gap: 80px;
+}
+.bir{
+    margin-right: 300px;
+}
+.bir p{
+    color: #666666;
+}
+.ikki a{
+   color: white;
+   text-decoration: none;
+   transition: all 0.5s linear;
+}
+.ikki a:hover{
+    color: rgb(0, 226, 0);
+}
+a {
+  text-decoration: none;
+}
